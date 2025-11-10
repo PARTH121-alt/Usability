@@ -71,6 +71,7 @@ a{
 
 .nav-links{
    flex-basis: 730px;
+   color: black;
 }
 
 .nav-links ul{
