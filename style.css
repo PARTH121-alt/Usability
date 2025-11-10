@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+:root{
+   
+  --primary-text-color: #183b56;
+  --secondary-text-color: #577592;
+  --accent-color: #2294ed;
+  --accent-color-dark: #1d69a3;
+  --padding-inline-section: 20px;
+
+}
+body{
+    font-family:"Poppins",sans-serif;
+    color:var(--primary-text-color);
+}
+h1{
+    font-size: 2rem;
+
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+     font-size: 1.5rem;
+
+}
+p{
+    font-size: 1.25rem;
+    font-family:"Roboto",sans-serif;
+    color:var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.top-banner{
+    text-align: center;
+    background-color: blue;
+    background-image: url("./assets/asset_32.png");
+
+}
+.banner-text{
+   color: whitesmoke;
+    text-align: center;
+    font-size:.80rem;
+    padding: 15px 0;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding:  var(--padding-inline-section);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+}
+.logo img{
+    width: 200px;
+}
+.main-nav{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.nav-links{
+   flex-basis: 730px;
+}
+
+.nav-links ul{
+    justify-content:end;
+    gap: 40px;
+}
+.hover-link{
+    text-transform: capitalize;
+    color: var(--accent-color-dark);
+    transition: .2s ease-out;
+}
+.hover-link:hover{
+    color: var(--accent-color);
+}
+.primary-btn{
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 5px;
+    transition: .1s ease-out;
+    font-weight: 700;
+    border-color: black;
+    
+}
+.secondary-btn{
+    padding: 10px 20px;
+    border: 2px solid var(--accent-color);
+    color: black;
+    border-radius: 5px;
+    transition: .2s ease-out;
+    margin-right: 10px;
+}
+.primary-btn:hover{
+    background-color: var(--accent-color-dark);
+    color: white;
+}
+.secondary-btn:hover{
+    background-color: var(--accent-color);
+    color: blue;
+    box-shadow: #183b56 0px 4px 8px -2px;
+}
